@@ -1,4 +1,4 @@
-# Weather Display App
+# Weather Display App ☀️
 
 Made With : Flutter
 
@@ -31,7 +31,13 @@ You can :
 1. Fork it (optional) 🍴
 2. Clone it 
 3. Get dependencies 📦
-4. Start Editing 💻
+4. Go to `lib/utilities/constants.dart` and replace value in `kapiKey` with your API key 🔑
+5. Start Editing 💻
+
+**Note :   
+API Key mentioned in this GitHub repository will be deactivated my the Author   
+So use your own API Key**  
+(Steps for getting Your own API Key are mentioned at the end under 'Additional Information' section)
 
 - Where users can get help with your project  
 
@@ -40,7 +46,20 @@ You can :
 2. [Dart Documentation](https://dart.dev/guides)
 3. [SpinKit Package](https://pub.dev/packages/flutter_spinkit)
 4. [Open Weather Map API Documentation](https://openweathermap.org/current)
+5. [FAQ Link for Open Weather Map API](https://openweathermap.org/faq)
 
 - Who maintains and contributes to the project  
   
   I will be maintaining this project and you all are free to contribute to this project. 🤝
+  
+- Additional Information
+  
+  Steps to get Your own Open Weather Map API Key :
+  1. [Create an account on Open Weather Map](https://home.openweathermap.org/users/sign_up)
+  2. [Login into your Open Weather Map Account](https://home.openweathermap.org/users/sign_in)
+  3. [Go to API Keys section](https://home.openweathermap.org/api_keys)
+  4. Create Your own key 
+
+**Note :  
+API Keys are activated a couple of hours after you generate them  
+So wait for a couple of hours in case you are getting 401 error**
